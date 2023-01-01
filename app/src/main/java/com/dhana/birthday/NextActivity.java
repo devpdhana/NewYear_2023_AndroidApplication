@@ -16,14 +16,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NextActivity extends AppCompatActivity {
-
     private ViewPager2 viewPager2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next);
-
         viewPager2 = findViewById(R.id.MainImageSlider);
 
         List<SliderItem> sliderItems = new ArrayList<>();
